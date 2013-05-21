@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/map_bg" >
+
+    <TableRow >
+
+        <ImageView
+            android:id="@+id/area_map_ImageView11"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView12"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView13"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView14"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView15"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView16"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView17"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow >
+
+        <ImageView
+            android:id="@+id/area_map_ImageView21"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView22"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView23"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView24"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView25"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView26"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView27"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow >
+
+        <ImageView
+            android:id="@+id/area_map_ImageView31"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView32"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView33"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView34"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView35"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView36"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView37"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow >
+
+        <ImageView
+            android:id="@+id/area_map_ImageView41"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView42"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView43"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView44"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView45"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView46"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView47"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow >
+
+        <ImageView
+            android:id="@+id/area_map_ImageView51"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView52"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView53"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView54"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView55"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView56"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView57"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow >
+
+        <ImageView
+            android:id="@+id/area_map_ImageView61"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView62"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView63"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView64"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView65"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView66"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView67"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow >
+
+        <ImageView
+            android:id="@+id/area_map_ImageView71"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView72"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView73"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView74"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView75"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView76"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/area_map_ImageView77"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+</TableLayout>

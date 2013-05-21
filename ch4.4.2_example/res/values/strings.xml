@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello 菜单!</string>
+	<string name="app_name">菜单</string>
+	<string name="textView">菜单</string>
+	<string name="menu1">菜单1</string>
+	<string name="menu2">菜单2</string>
+	<string name="menu3">菜单3</string>
+</resources>

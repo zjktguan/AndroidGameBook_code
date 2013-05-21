@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="50dip"
+			android:layout_height="wrap_content" android:text="木材："
+			android:layout_marginLeft="10px">
+		</TextView>
+		<TextView android:id="@+id/upgrade03_wood" android:layout_width="80dip"
+			android:layout_height="wrap_content" android:text="010102222">
+		</TextView>
+		<TextView  android:layout_width="50dip"
+			android:layout_height="wrap_content" android:text="粮食："
+			android:layout_marginLeft="10px">
+		</TextView>
+		<TextView android:id="@+id/upgrade03_food" android:layout_width="80dip"
+			android:layout_height="wrap_content" android:text="010102222">
+		</TextView>
+	</LinearLayout>
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="50dip"
+			android:layout_height="wrap_content" android:text="玄铁："
+			android:layout_marginLeft="10px">
+		</TextView>
+		<TextView android:id="@+id/upgrade03_ironOre" android:layout_width="80dip"
+			android:layout_height="wrap_content" android:text="010102222">
+		</TextView>
+	</LinearLayout>
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="招募数量："
+			android:layout_marginLeft="10px">
+		</TextView>
+		<EditText android:id="@+id/upgrade03_recruitnumber"
+			android:layout_width="90dip" android:layout_height="wrap_content" android:numeric="integer">
+		</EditText>
+	</LinearLayout>
+</LinearLayout>

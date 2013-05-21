@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tablelayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/spirit_mountain"
+    android:stretchColumns="0,1,2,3,4,5,6" >
+
+    <TableRow android:layout_marginTop="20dip" >
+
+        <TextView android:text="" />
+
+        <TextView android:text="" />
+
+        <TextView android:text="" />
+
+        <ImageButton
+            android:id="@+id/faction01_ImageButton11"
+            android:layout_width="52dip"
+            android:layout_height="44dip"
+            android:background="@drawable/spirit_mountain01" />
+
+        <TextView android:text="" />
+
+        <TextView android:text="" />
+
+        <TextView android:text="" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="15dip" >
+
+        <TextView android:text="" />
+
+        <TextView android:text="" />
+
+        <TextView android:text="" />
+
+        <ImageButton
+            android:id="@+id/faction01_ImageButton911"
+            android:layout_width="52dp"
+            android:layout_height="17dip"
+            android:background="@drawable/spirit_mountain_challenge01" />
+
+        <TextView android:text="" />
+
+        <TextView android:text="" />
+
+        <TextView android:text="" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="25dip" >
+
+        <TextView android:text="" />
+
+        <ImageButton
+            android:id="@+id/faction01_ImageButton12"
+            android:layout_width="52dip"
+            android:layout_height="44dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/spirit_mountain02" />
+
+        <TextView android:text="" />
+
+        <TextView android:text="" />
+
+        <TextView android:text="" />
+
+        <ImageButton
+            android:id="@+id/faction01_ImageButton13"
+            android:layout_width="52dip"
+            android:layout_height="44dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/spirit_mountain01" />
+
+        <TextView android:text="" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="15dip" >
+
+        <TextView android:text="" />
+
+        <ImageButton
+            android:id="@+id/faction01_ImageButton912"
+            android:layout_width="52dip"
+            android:layout_height="17dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/spirit_mountain_challenge01" />
+
+        <TextView android:text="" />
+
+        <TextView android:text="" />
+
+        <TextView android:text="" />
+
+        <ImageButton
+            android:id="@+id/faction01_ImageButton913"
+            android:layout_width="52dip"
+            android:layout_height="17dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/spirit_mountain_challenge02" />
+
+        <TextView android:text="" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="25dip" >
+
+        <ImageButton
+            android:id="@+id/faction01_ImageButton14"
+            android:layout_width="52dip"
+            android:layout_height="44dip"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/spirit_mountain02" />
+
+        <ImageButton
+            android:id="@+id/faction01_ImageButton15"
+            android:layout_width="52dip"
+            android:layout_height="44dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/spirit_mountain02" />
+
+        <ImageButton
+            android:id="@+id/faction01_ImageButton16"
+            android:layout_width="52dip"
+            android:layout_height="44dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/spirit_mountain02" />
+
+        <TextView android:text="" />
+
+        <ImageButton
+            android:id="@+id/faction01_ImageButton17"
+            android:layout_width="52dip"
+            android:layout_height="44dip"
+            android:background="@drawable/spirit_mountain01" />
+
+        <ImageButton
+            android:id="@+id/faction01_ImageButton18"
+            android:layout_width="52dip"
+            android:layout_height="44dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/spirit_mountain01" />
+
+        <ImageButton
+            android:id="@+id/faction01_ImageButton19"
+            android:layout_width="52dip"
+            android:layout_height="44dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/spirit_mountain01" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="15dip" >
+
+        <ImageButton
+            android:id="@+id/faction01_ImageButton914"
+            android:layout_width="52dip"
+            android:layout_height="17dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/spirit_mountain_challenge02" />
+
+        <ImageButton
+            android:id="@+id/faction01_ImageButton915"
+            android:layout_width="52dip"
+            android:layout_height="17dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/spirit_mountain_challenge02" />
+
+        <ImageButton
+            android:id="@+id/faction01_ImageButton916"
+            android:layout_width="52dip"
+            android:layout_height="17dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/spirit_mountain_challenge02" />
+
+        <TextView android:text="" />
+
+        <ImageButton
+            android:id="@+id/faction01_ImageButton917"
+            android:layout_width="52dip"
+            android:layout_height="17dip"
+            android:background="@drawable/spirit_mountain_challenge01" />
+
+        <ImageButton
+            android:id="@+id/faction01_ImageButton918"
+            android:layout_width="52dip"
+            android:layout_height="17dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/spirit_mountain_challenge01" />
+
+        <ImageButton
+            android:id="@+id/faction01_ImageButton919"
+            android:layout_width="52dip"
+            android:layout_height="17dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/spirit_mountain_challenge01" />
+    </TableRow>
+
+</TableLayout>

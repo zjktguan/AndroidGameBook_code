@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/building02_name"
+            android:layout_width="400dip"
+            android:layout_height="wrap_content"
+            android:text="" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/building02_dev"
+            android:layout_width="400dip"
+            android:layout_height="wrap_content"
+            android:text="" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/building02_eff"
+            android:layout_width="400dip"
+            android:layout_height="wrap_content"
+            android:text="" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/building02_scribe"
+            android:layout_width="400dip"
+            android:layout_height="wrap_content"
+            android:text="" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" >
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@+string/not_builing_label" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

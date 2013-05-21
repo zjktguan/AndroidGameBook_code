@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Spinner!</string>
+    <string name="app_name">Spinner</string>
+    <string name="colour">你最喜欢的颜色：</string>
+    <string name="constellationtextview">选择你的星座：</string>
+</resources>

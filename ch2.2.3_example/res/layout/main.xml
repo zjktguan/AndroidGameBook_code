@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="http://www.sina.com" >
+    </EditText>
+
+    <Button
+        android:id="@+id/ButtonGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO" >
+    </Button>
+
+    <TextView
+        android:id="@+id/pagetext"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:textColor="#000000" />
+
+</LinearLayout>

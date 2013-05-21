@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+string/warradar"
+        android:textSize="18dip" >
+    </TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#39B6EF" >
+    </View>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1,2,3,4" >
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@+string/search_item_2"
+                android:textSize="16dip" >
+            </TextView>
+            <Spinner
+                android:id="@+id/war_radar_Spinner01"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip" >
+            </Spinner>
+            <TextView
+                android:id="@+id/txtSearchContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@+string/search_content_2"
+                android:textSize="16dip" >
+            </TextView>
+            <Spinner
+                android:id="@+id/war_radar_Spinner02"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip" >
+            </Spinner>
+
+            <Button
+                android:id="@+id/war_radar_buttonSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@+string/search" >
+            </Button>
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#39B6EF" >
+    </View>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/war_radar_TextView01"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:text="@+string/name" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/war_radar_TextView02"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:text="@+string/faction" >
+        </TextView>
+
+        <TextView
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:text="@+string/coordinate" >
+        </TextView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#39B6EF" >
+    </View>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ListView
+            android:id="@+id/war_radar_ListView01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

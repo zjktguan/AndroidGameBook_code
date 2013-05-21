@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 战争雷达画面 搜索项目 -->
+    <string-array name="war_radar_search_item">
+        <item>玩家城邦</item>
+        <item>玄铁矿</item>
+        <item>密林</item>
+        <item>山贼巢穴</item>
+        <item>废墟</item>
+        <item>毒物山谷</item>
+        <item>毒沼泽山谷</item>
+    </string-array>
+
+    <!-- 战争雷达画面 玄铁矿级别 -->
+    <string-array name="war_radar_Iron_Ore_Level">
+        <item>初级</item>
+        <item>中级</item>
+        <item>高级</item>
+    </string-array>
+
+    <!-- 战争雷达画面  有无宠物 -->
+    <string-array name="war_radar_pet_no_yes">
+        <item>有</item>
+        <item>无</item>
+    </string-array>
+    
+
+</resources>

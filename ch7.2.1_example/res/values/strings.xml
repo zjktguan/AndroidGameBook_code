@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text">Hello Toast</string>
+    <string name="app_name">Toast例子</string>
+    <string name="word">文本型Toast</string>
+    <string name="pictoast">图片型Toast</string>
+    <string name="mixtoast">复合型Toast</string>
+    <string name="custom">自定义Toast显示位置</string>
+</resources>

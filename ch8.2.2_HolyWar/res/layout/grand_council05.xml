@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/grand_council05_textview1"
+        android:layout_width="400dip"
+        android:layout_height="wrap_content"
+        android:text="1234" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/grand_council05_textview2"
+        android:layout_width="400dip"
+        android:layout_height="wrap_content"
+        android:text="1234" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/grand_council05_textview3"
+        android:layout_width="400dip"
+        android:layout_height="wrap_content"
+        android:text="1234" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/grand_council05_textview4"
+        android:layout_width="400dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:text="4321" >
+    </TextView>
+
+</LinearLayout>

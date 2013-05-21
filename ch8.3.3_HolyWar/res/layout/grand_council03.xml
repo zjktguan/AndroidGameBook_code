@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/grand_council03_hidvisaa"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可派遣的英雄：" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="无"
+                android:textSize="16dip" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/grand_council03_hidvisbb"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可派遣的英雄：" >
+            </TextView>
+
+            <CheckBox
+                android:id="@+id/grand_council03_ckb_hero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="鲜血英雄"
+                android:textSize="13dip" >
+            </CheckBox>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/grand_council03_hidviscc"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="英雄被动技能：" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/grand_council03_hero_skill2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="仙灵感召      御风神行术      浩然正气" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/grand_council03_hidvisdd"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="英雄主动技能：" >
+            </TextView>
+
+            <RadioGroup
+                android:id="@+id/grand_council03_radiogroup01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/grand_council03_radiog11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="法术激荡"
+                    android:textSize="13dip" />
+
+                <RadioButton
+                    android:id="@+id/grand_council03_radiog12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="心灵震撼"
+                    android:textSize="13dip" />
+
+                <RadioButton
+                    android:id="@+id/grand_council03_radiog13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="九曲天雷"
+                    android:textSize="13dip" />
+
+                <RadioButton
+                    android:id="@+id/grand_council03_radiog04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="不使用主动技能"
+                    android:textSize="13dip" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:stretchColumns="0,1,2,3,4,5,6,7,8" >
+
+                <View
+                    android:layout_height="1dip"
+                    android:background="#39B6EF" />
+
+                <TableRow >
+
+                    <TextView android:text="运输兵：" />
+
+                    <EditText
+                        android:id="@+id/grand_council03_transport_amount"
+                        android:numeric="integer"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/grand_council03_bing01"
+                        android:text="0" />
+
+                    <TextView android:text="侦察兵：" />
+
+                    <EditText
+                        android:id="@+id/grand_council03_scout_amount"
+                        android:numeric="integer"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/grand_council03_bing02"
+                        android:text="0" />
+
+                    <TextView android:text="民兵：" />
+
+                    <EditText
+                        android:id="@+id/grand_council03_militia_amount"
+                        android:numeric="integer"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/grand_council03_bing03"
+                        android:text="0" />
+                </TableRow>
+
+                <TableRow >
+
+                    <TextView android:text="枪兵：" />
+
+                    <EditText
+                        android:id="@+id/grand_council03_spearman_amount"
+                        android:numeric="integer"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/grand_council03_bing04"
+                        android:text="0" />
+
+                    <TextView android:text="刺客：" />
+
+                    <EditText
+                        android:id="@+id/grand_council03_assassin_amount"
+                        android:numeric="integer"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/grand_council03_bing05"
+                        android:text="0" />
+
+                    <TextView android:text="骠骑：" />
+
+                    <EditText
+                        android:id="@+id/grand_council03_military_general_amount"
+                        android:numeric="integer"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/grand_council03_bing06"
+                        android:text="0" />
+                </TableRow>
+
+                <TableRow >
+
+                    <TextView android:text="神射手：" />
+
+                    <EditText
+                        android:id="@+id/grand_council03_marksman_amount"
+                        android:numeric="integer"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/grand_council03_bing07"
+                        android:text="0" />
+
+                    <TextView android:text="巫毒术士：" />
+
+                    <EditText
+                        android:id="@+id/grand_council03_voodoo_man_amount"
+                        android:numeric="integer"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/grand_council03_bing08"
+                        android:text="0" />
+
+                    <TextView android:text="武士：" />
+
+                    <EditText
+                        android:id="@+id/grand_council03_warrior_amount"
+                        android:numeric="integer"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/grand_council03_bing09"
+                        android:text="0" />
+                </TableRow>
+
+                <TableRow >
+
+                    <TextView android:text="冲撞车：" />
+
+                    <EditText
+                        android:id="@+id/grand_council03_battering_ram_amount"
+                        android:numeric="integer"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/grand_council03_bing10"
+                        android:text="0" />
+
+                    <TextView android:text="投石车：" />
+
+                    <EditText
+                        android:id="@+id/grand_council03_catapult_amount"
+                        android:numeric="integer"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/grand_council03_bing11"
+                        android:text="0" />
+                </TableRow>
+
+                <View
+                    android:layout_height="1dip"
+                    android:background="#39B6EF" />
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <RadioGroup
+                android:id="@+id/grand_council03_radiogroup02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/grand_council03_radiog21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="增援"
+                    android:textSize="13dip" />
+
+                <RadioButton
+                    android:id="@+id/grand_council03_radiog22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="攻击"
+                    android:textSize="13dip" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/grand_council03_dispatch_soldier"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:text="发兵"
+                android:textSize="13dip" >
+            </Button>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:text="城镇名称：" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/grand_council03_city_name"
+                android:layout_width="160dip"
+                android:layout_height="wrap_content" >
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

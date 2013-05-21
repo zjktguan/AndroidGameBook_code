@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:gravity="center_horizontal"
+        android:text="@+string/ApplyAttack"
+        android:textSize="20dip" >
+    </TextView>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow android:layout_marginTop="5dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@+string/spirit_mountain_2" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/faction02_spirit_mountain_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="朱明峰" >
+            </TextView>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="5dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@+string/current_occupation_2" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/faction02_spirit_mountain_occupy"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="朱明峰风云争霸" >
+            </TextView>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="5dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@+string/occupation_time_2" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/faction02_occupy_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="40天" >
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="1,申请时间：14:00-21:00(只有创建超过72小时的宗派方可申请攻占仙山)" >
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="2,想要攻占仙山，宗主需要支付至少20块镇山令。之后可以追加镇山令数量，但不可撤回；一个宗派在同一时间只能申请攻占一座仙山。" >
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="3,截止21：00点申请结束后，支付镇山令最多的两个宗派进行攻占仙山。其余宗派的镇山令退回。" >
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="4,占领低级仙山后可申请攻占更高一级的仙山。如果申请成功则失去低级仙山；申请失败则保留低级仙山。" >
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dip"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/faction02_btn_challenge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="挑战据点" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HolyWar</string>
+    <string name="close">关闭</string>
+    <string name="upgrade">升级</string>
+    <string name="exit">退出</string>
+    <string name="search">搜索</string>
+    <string name="name">名称</string>
+    <string name="describe">描述</string>
+    <string name="coordinate">坐标</string>
+    <string name="terrain">地形</string>
+    
+    <string name="ApplyAttack">申请进攻</string>
+    
+    <string name="search_item_2">搜索项目：</string>
+    <string name="search_content_2">搜索内容：</string>
+    <string name="iron_ore_level_2">玄铁矿级别：</string>
+    <string name="pet_no_yes_2">选择有无宠物：</string>
+    <string name="spirit_mountain_2">仙山名称：</string>
+    <string name="current_occupation_2">当前占领：</string>
+   <string name="occupation_time_2">占领时间：</string>
+   
+    
+    
+    <string name="recruit_soldier">招募兵种</string>
+    <string name="recruit">招募</string>
+    <string name="castle">城堡</string>
+    <string name="areamap">作战地图</string>
+    <string name="warradar">战争雷达</string>
+    <string name="players_castle">玩家城邦</string>
+    <string name="not_builing_label">无法建造</string>
+    <string name="faction">宗派</string>
+
+</resources>

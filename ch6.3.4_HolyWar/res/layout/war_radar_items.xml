@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:orientation="horizontal" xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<TextView android:id="@+id/war_radar_name" android:layout_width="200dip"
+		android:layout_height="wrap_content" android:text="">
+	</TextView>
+	<TextView android:id="@+id/war_radar_detail" android:layout_width="200dip"
+		android:layout_height="wrap_content" android:text="">
+	</TextView>
+	<TextView android:id="@+id/war_radar_coord" android:layout_width="800dip"
+		android:layout_height="wrap_content" android:text="">
+	</TextView>
+
+</LinearLayout>
